@@ -20,15 +20,16 @@ def create_QR():
     except Exception as e:
         messagebox.showerror("Error", f"An error occurred: {e}")
 
+#User Interface
 root = tk.Tk()
 root.title('QR maker')
 root.geometry("1100x800+300+200")
 root.resizable(False, False)
-root.iconbitmap('E:/My python projects/QR maker/icon22.ico')
-# root.iconbitmap('e:/My python projects/QR maker/qr-code.png')
+root.iconbitmap('icon22.ico')
+
 
 # Import elements
-search_bar = tk.PhotoImage(file='E:/My python projects/QR maker/S.png')
+search_bar = tk.PhotoImage(file='S.png')
 search_bar_label = tk.Label(root, image=search_bar)
 search_bar_label.pack(padx=20, pady=10, side=tk.TOP)
 
