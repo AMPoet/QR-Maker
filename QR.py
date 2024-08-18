@@ -1,3 +1,5 @@
+# Gui and functions are updated
+#Version 2.0.0
 import segno
 import customtkinter 
 from win10toast import ToastNotifier
