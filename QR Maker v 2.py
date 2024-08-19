@@ -29,7 +29,7 @@ while True:
 
 
 
-    Image=Image.open('E:/My python projects/QR maker/o.png')
+    Image=Image.open('Label.png')
 
     customtkinter.set_appearance_mode('system')
     customtkinter.set_default_color_theme('dark-blue')

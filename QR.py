@@ -29,7 +29,7 @@ root.iconbitmap('icon22.ico')
 
 
 # Import elements
-search_bar = tk.PhotoImage(file='S.png')
+search_bar = tk.PhotoImage(file='Search bar.png')
 search_bar_label = tk.Label(root, image=search_bar)
 search_bar_label.pack(padx=20, pady=10, side=tk.TOP)
 
