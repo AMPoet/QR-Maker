@@ -29,12 +29,12 @@ while True:
 
 
 
-    Image=Image.open('Label.png')
+    Image=Image.open('QLabel.png')
 
     customtkinter.set_appearance_mode('system')
     customtkinter.set_default_color_theme('dark-blue')
     root = customtkinter.CTk()
-    root.iconbitmap('E:/My python projects/QR maker/icon22.ico')
+    root.iconbitmap('icon22.ico')
     root.title('QR Code Generator')
     root.geometry("1100x800+300+200")
     root.resizable(False, False)
